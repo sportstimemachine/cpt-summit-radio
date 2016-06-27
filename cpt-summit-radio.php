@@ -177,7 +177,7 @@ if ( ! class_exists( 'SportsTM_Summit_Radio' ) ) {
                 'exclude_from_search' => ! $this->is_public,
                 'has_archive' => $this->archive,
                 'query_var' => true,
-                'rewrite' => false,
+                'rewrite' => true,
                 'capability_type' => 'post',
                 'taxonomies' => $this->taxonomies,
             );
